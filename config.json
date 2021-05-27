@@ -1,0 +1,15 @@
+{
+  "im_width" : 1000,
+  "im_height" : 1000,
+  "TRAIN_PATH_IMAGES" : "./Datasets/MonuSeg/Training/TissueImages/*",
+  "TRAIN_PATH_GT" : "./Datasets/MonuSeg/Training/GroundTruth/",
+  "TEST_PATH_IMAGES" : "./Datasets/MonuSeg/Test/TissueImages/*",
+  "TEST_PATH_GT" : "./Datasets/MonuSeg/Test/GroundTruth/",
+  "Epochs" : 30,
+  "Batch" : 8,
+  "Model" : "UNETMOD",
+  "patch_width" : 256 ,
+  "patch_height" : 256,
+  "sample_test_image" : "./Datasets/Samples/Test/TCGA-HT-8564-01Z-00-DX1.png",
+  "sample_test_mask" : "./Datasets/Samples/Test/TCGA-HT-8564-01Z-00-DX1_bin_mask.png"
+}
